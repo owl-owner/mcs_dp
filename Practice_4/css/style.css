@@ -1,8 +1,68 @@
-.div {
-	background-color: blue;
+body {
+	width: 700px;
+	}
+div.Menu {
+	height: 300px;
+	background-image: url(../img/Bate.jpg); 
+	background-attachment: fixed;
 }
-.Header	{
-	width: 500px; height: 200px;
-	color: green;
-	background-color: red;
+nav {
+	height: 100px;
+	
+}
+p {
+	background-color: white;
+	text-indent: 1.5em;
+	font-family: Noto Serif SC;
+}
+ul.Menu {
+	background-image: linear-gradient(90deg, rgb(225, 0, 0), rgba(225, 0, 0, 0.1));
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: Noto Serif SC;
+}
+ul.Themes {
+	background-color: white;
+	font-style: italic;
+	line-height: 125%;
+	margin-left: 35px;
+}
+ul li {
+	content: "\2022";
+	color: red;
+}
+ol.Process {
+	list-style-type: upper-roman;
+	list-style-position: inside;
+	font-style: italic;
+ 	margin-left: 35px;
+}
+div.Image_container {
+	width: 700px;
+}
+div.Separate {
+	width: 200px;
+	height: 200px;
+background-image: linear-gradient(90deg, rgb(225, 0, 0), rgba(225, 0, 0, 0.1))
+}
+hgroup {
+	height: 70px;
+	text-align: center;
+	font-family: "Montserrat";
+}
+h1 {
+	font-size: 20px;
+	font-weight: bold; 
+	font-style: bold;
+}
+h2 {
+	font-style: italic;
+}
+h3 {
+	background-color: black;
+	color: white;
+	font-family: "Montserrat";
+	font-style: italic;
+	line-height: 12px;
+	border-bottom: 1.5px dashed red;
 }
