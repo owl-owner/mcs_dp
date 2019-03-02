@@ -2,11 +2,12 @@ nav {
   position: fixed;
   background-color: #000;
   margin: -4px;
-}
-div .menu {
   width: 100%;
   background-color: red;
   z-index: 1;
+}
+div .menu {
+
 }
 a {
   font-family: "Montserrat";
@@ -23,21 +24,19 @@ main {
   padding: 20px;
   font-family: "Merriweather";
 }
+.txt {
+  display: flex;
+  flex-direction: row;
+}
+p {
+
+}
 div .left_nav {
+}
+hgroup {
+  height: 70px;
+  text-align: center;
   font-family: "Montserrat";
-  width: 100px;
-  left: 0;
-  background-color: yellow;
-  }
-.column1 {
-  font-family: "Merriweather";
-  width: 300px;
-  margin-left: 150px;
-  margin-top: 300px;
-  }
-.column2 {
-  width: 500px;
-  margin-left: 500px;
 }
 h1 {
   font-size: 18px;
