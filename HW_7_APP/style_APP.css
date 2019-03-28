@@ -14,7 +14,7 @@ background-color: pink;
 }
 
 .image1 {
-background-image: url(img/1.jpg);
+background-image: url(img/3.jpg);
 background-size: cover;
 background-position: center;
 height: 100px;
@@ -28,7 +28,7 @@ height: 100px;
 padding-bottom: 100%;
 }
 .image3 {
-background-image: url(img/3.jpg);
+background-image: url(img/1.jpg);
 background-size: cover;
 background-position: center;
 height: 100px;
