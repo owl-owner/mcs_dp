@@ -1,0 +1,56 @@
+
+.Columns {
+width: 30vw;
+margin: auto;
+min-width: 1050px;
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+background-color: pink;
+}
+.column {
+	width: calc((100% - 40px)/3);
+}
+
+.image1 {
+background-image: url(img/1.jpg);
+background-size: cover;
+background-position: center;
+height: 100px;
+padding-bottom: 100%;
+}
+.image2 {
+background-image: url(img/2.jpg);
+background-size: cover;
+background-position: center;
+height: 100px;
+padding-bottom: 100%;
+}
+.image3 {
+background-image: url(img/3.jpg);
+background-size: cover;
+background-position: center;
+height: 100px;
+padding-bottom: 100%;
+}
+
+hgroup {
+  height: 70px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+h1 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 18px;
+  font-style: bold;
+}
+nav {
+  position: fixed;
+  background-color: #000;
+  margin: -4px;
+  width: 100%;
+  background-color: red;
+  z-index: 1;
+}

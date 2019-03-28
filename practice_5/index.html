@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+@keyframes moving {
+from: {
+opacity: 1;
+}
+to: {
+opacity: 0;
+}
+}
+
+.yo {
+	animation-name: moving;
+	animation-direction: alternate;
+	animation-duration: .5s;
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite;
+}
+</style>
+</head>
+<body>
+<div class="yo">
+Yo
+</div>
+</body>
+</html>
