@@ -1,0 +1,54 @@
+
+hgroup {
+  text-align: left;
+  font-family: "Montserrat";
+}
+h1 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 18px;
+  font-style: bold;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: red;
+  z-index: 1;
+}
+footer {
+  margin-top: 25px;
+  text-align: right;
+}
+
+
+
+.page {
+  min-width: 375px;
+}
+
+.txt {
+display: flex;
+background-color: pink;
+flex-direction: column;
+}
+
+div {
+  font-family: "Montserrat";
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+
+.txt {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+flex-direction: row;
+align-items: flex-start;
+background-color: yellow;
+}
+div {
+width: calc((100% - 20px)/2);
+}
+
