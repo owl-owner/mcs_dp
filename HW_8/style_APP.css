@@ -23,7 +23,7 @@ footer {
 
 
 .txt {
-display: flex;
+display: inline-flex;
 background-color: pink;
 flex-direction: column;
 width: 100%;
@@ -33,18 +33,16 @@ div {
   width: 100%;
 }
 
-/*
-@media screen and (min-width: 960px) {
+
+@media screen and (min-width: 1000px) {
 
 .txt {
-display: flex;
-justify-content: space-between;
-align-items: stretch;
 flex-direction: row;
+justify-content: space-between;
 align-items: flex-start;
 background-color: yellow;
 }
-div {
+.subtxt {
 width: calc((100% - 40px)/2);
 }
 }
