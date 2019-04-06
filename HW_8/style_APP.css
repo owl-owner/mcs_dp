@@ -21,27 +21,21 @@ footer {
   text-align: right;
 }
 
-@media screen and (min-width: 600px) {
-
-.page {
-  width: 600px;
-}
 
 .txt {
+display: flex;
 background-color: pink;
 flex-direction: column;
+width: 100%;
 }
-div {
-  width: 100%;
-}
-}
-
 div {
   font-family: "Montserrat";
   width: 100%;
 }
 
+/*
 @media screen and (min-width: 960px) {
+
 .txt {
 display: flex;
 justify-content: space-between;
@@ -51,6 +45,7 @@ align-items: flex-start;
 background-color: yellow;
 }
 div {
-width: calc((100% - 20px)/2);
+width: calc((100% - 40px)/2);
 }
 }
+*/
